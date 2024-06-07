@@ -58,9 +58,7 @@ input{
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid grey;
-    
-
+    border: 1px solid lightgrey;
 }
 .remember{
     display: flex;
