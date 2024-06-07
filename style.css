@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: none;
+    outline: none;
 }
 main{
     background: lightgray;
@@ -26,9 +28,8 @@ main{
     background-image: url(https://i.pinimg.com/236x/4b/05/0c/4b050ca4fcf588eedc58aa6135f5eecf.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-
-
+    border-radius: 20px;
+    overflow: clip;
 }
 .right{
     width: 50%;
@@ -44,7 +45,7 @@ main{
 form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap:20px;
     width: 100%;
 }
 .Forgot{
@@ -52,13 +53,19 @@ form{
     align-items: center;
     justify-content: space-between;
 }
-input{
-    height: 30px;
-    border-radius: 5px;
+.input{
+    height: 50px;
+    border-radius: 8px;
     background: transparent;
-    border: none;
-    outline: none;
     border: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.icon {
+    width: 16px;
+    height: 16px;
 }
 .remember{
     display: flex;
@@ -66,8 +73,8 @@ input{
     gap: 10px;
 }
 button{
-    height: 30px;
+    height: 50px;
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-radius:8px;
 }
